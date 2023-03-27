@@ -1,0 +1,31 @@
+Mongo Atlas URL : 'mongodb+srv://melisen:password-desafio@cluster-desafio-inicio.4b6gwyo.mongodb.net/?retryWrites=true&w=majority'
+database: "test"
+collection: "catsmongoosemodules"
+
+Pruebas:
+
+POST 1 cat --> "localhost:3000/cats"
+body: 
+{
+  "name": "Alfonso",
+  "age":3,
+  "breed": "gris"
+}
+
+GET todos los cats  -->  "localhost:3000/cats"
+
+GET 1 cat --> "localhost:3000/cats/6421dbde8692df31cbe97967"
+
+PUT 1 cat --> "localhost:3000/cats/6421dbde8692df31cbe97967"
+body: 
+{
+  "name": "Alfonso",
+  "age":4,
+  "breed": "gris Y BLANCO"
+}
+
+DELETE 1 cat --> "localhost:3000/cats/6421e7a9507a3703b74399dd"
+
+
+
+
